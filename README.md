@@ -5,7 +5,7 @@
 
 ## Overview
 
-The **Compliance QA Pipeline** is an open‑source, AI‑powered solution that automatically audits video content for brand‑compliance violations. It ingests a YouTube URL, extracts speech & OCR, indexes the content, and runs a LangGraph workflow powered by LLMs to detect policy breaches, producing a concise compliance report.
+The **AI Video Brand Guardrail** is an open‑source, AI‑powered solution that automatically audits video content for brand‑compliance violations. It ingests a YouTube URL, extracts speech & OCR, indexes the content, and runs a LangGraph workflow powered by LLMs to detect policy breaches, producing a concise compliance report.
 
 > *"AI‑driven brand guardian – keep your videos safe, compliant, and on‑brand."*
 
