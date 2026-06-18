@@ -18,25 +18,6 @@ The **Compliance QA Pipeline** is an open‑source, AI‑powered solution that a
 * **Modular architecture** – easy to add new rule‑sets or video platforms.
 * **Comprehensive CLI** (`python main.py`) for quick local testing.
 
-## Architecture
-
-```mermaid
-flowchart TD
-    A[Client (CLI / HTTP)] --> B[FastAPI Server]
-    B --> C[LangGraph Workflow]
-    C --> D[Indexer Node]
-    D --> E[Auditor Node]
-    E --> F[Report Generation]
-    
-    style A fill:#f9f,stroke:#333,stroke-width:2px
-    style B fill:#bbf,stroke:#333,stroke-width:2px
-    style C fill:#bfb,stroke:#333,stroke-width:2px
-    style D fill:#ff9,stroke:#333,stroke-width:2px
-    style E fill:#ff9,stroke:#333,stroke-width:2px
-    style F fill:#9f9,stroke:#333,stroke-width:2px
-
-```
-
 ## Quick Start
 
 ### Prerequisites
