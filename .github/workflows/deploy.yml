@@ -1,0 +1,19 @@
+name: CI/CD Deployment
+
+on:
+  push:
+    branches: [ "main" ] # Triggers the deploy whenever you push to main
+
+jobs:
+  deploy:
+    runs-on: self-hosted # Tells GitHub to use your Azure VM runner
+
+    steps:
+      - name: Checkout Repository Code
+        uses: actions/checkout@v4
+
+      - name: Run a Test Deployment Command
+        run: |
+          echo "Hello from Azure VM!"
+          echo "Current directory is:"
+          pwd
